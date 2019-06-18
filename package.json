@@ -2,7 +2,7 @@
   "name": "apetersen-pw",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://arobpetersen.github.io/apetersen-pw",
+  "homepage": "http://arobpetersen.github.io/apetersen-pw",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
