@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/apetersen-pw/static/css/main.cebeb8b8.chunk.css",
-    "main.js": "/apetersen-pw/static/js/main.fdb4a247.chunk.js",
-    "main.js.map": "/apetersen-pw/static/js/main.fdb4a247.chunk.js.map",
+    "main.css": "/apetersen-pw/static/css/main.76d3fe8b.chunk.css",
+    "main.js": "/apetersen-pw/static/js/main.763a5e4a.chunk.js",
+    "main.js.map": "/apetersen-pw/static/js/main.763a5e4a.chunk.js.map",
     "runtime~main.js": "/apetersen-pw/static/js/runtime~main.173900cf.js",
     "runtime~main.js.map": "/apetersen-pw/static/js/runtime~main.173900cf.js.map",
-    "static/js/2.b41502e9.chunk.js": "/apetersen-pw/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/apetersen-pw/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.479fc036.chunk.js": "/apetersen-pw/static/js/2.479fc036.chunk.js",
+    "static/js/2.479fc036.chunk.js.map": "/apetersen-pw/static/js/2.479fc036.chunk.js.map",
     "index.html": "/apetersen-pw/index.html",
-    "precache-manifest.dd52727b994a7f159c9ececde0ea39b8.js": "/apetersen-pw/precache-manifest.dd52727b994a7f159c9ececde0ea39b8.js",
+    "precache-manifest.03d8b475489fc24fcf082e6dfffa4bf4.js": "/apetersen-pw/precache-manifest.03d8b475489fc24fcf082e6dfffa4bf4.js",
     "service-worker.js": "/apetersen-pw/service-worker.js",
-    "static/css/main.cebeb8b8.chunk.css.map": "/apetersen-pw/static/css/main.cebeb8b8.chunk.css.map",
+    "static/css/main.76d3fe8b.chunk.css.map": "/apetersen-pw/static/css/main.76d3fe8b.chunk.css.map",
+    "static/media/github.png": "/apetersen-pw/static/media/github.af7b3675.png",
     "static/media/logo.svg": "/apetersen-pw/static/media/logo.ee7cd8ed.svg"
   }
 }
