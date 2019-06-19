@@ -8,17 +8,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React
-        </a>
+       <h1>Andrew  Petersen ReactJS App</h1>
       </header>
       <body>
-        <p>How is the Header Designed?</p>
+        <p>This is the body</p>
       </body>
       <footer className="App-footer">
         <a
