@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/apetersen-pw/static/css/main.76d3fe8b.chunk.css",
-    "main.js": "/apetersen-pw/static/js/main.6556f450.chunk.js",
-    "main.js.map": "/apetersen-pw/static/js/main.6556f450.chunk.js.map",
+    "main.css": "/apetersen-pw/static/css/main.de915ae6.chunk.css",
+    "main.js": "/apetersen-pw/static/js/main.db44ec77.chunk.js",
+    "main.js.map": "/apetersen-pw/static/js/main.db44ec77.chunk.js.map",
     "runtime~main.js": "/apetersen-pw/static/js/runtime~main.173900cf.js",
     "runtime~main.js.map": "/apetersen-pw/static/js/runtime~main.173900cf.js.map",
     "static/js/2.479fc036.chunk.js": "/apetersen-pw/static/js/2.479fc036.chunk.js",
     "static/js/2.479fc036.chunk.js.map": "/apetersen-pw/static/js/2.479fc036.chunk.js.map",
     "index.html": "/apetersen-pw/index.html",
-    "precache-manifest.e910a5732649fd73bd9870e5b5f10b2c.js": "/apetersen-pw/precache-manifest.e910a5732649fd73bd9870e5b5f10b2c.js",
+    "precache-manifest.fdc820f50e6316fc73ebddb3d580fdc5.js": "/apetersen-pw/precache-manifest.fdc820f50e6316fc73ebddb3d580fdc5.js",
     "service-worker.js": "/apetersen-pw/service-worker.js",
-    "static/css/main.76d3fe8b.chunk.css.map": "/apetersen-pw/static/css/main.76d3fe8b.chunk.css.map",
+    "static/css/main.de915ae6.chunk.css.map": "/apetersen-pw/static/css/main.de915ae6.chunk.css.map",
     "static/media/github.png": "/apetersen-pw/static/media/github.af7b3675.png",
     "static/media/logo.svg": "/apetersen-pw/static/media/logo.ee7cd8ed.svg"
   }
