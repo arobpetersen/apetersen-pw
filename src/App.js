@@ -11,7 +11,7 @@ function App() {
        <h1>Andrew  Petersen ReactJS App</h1>
       </header>
       <body>
-        <p>This is the body</p>
+        <p>Lex is my sexy hoe</p>
       </body>
       <footer className="App-footer">
         <a
