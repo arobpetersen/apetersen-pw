@@ -2,20 +2,17 @@ import React from 'react';
 import logo from './img/logo.svg';
 import github from './img/github.png';
 import linkedin from './img/linkedin.png';
+import headlogo from './img/headlogo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React
-        </a>
+        <div className="header-align">
+          <img src={headlogo} className="App-logo-header" alt="logo-header" />
+          <h3 id="header-text">Andrew Petersen</h3>
+        </div>
       </header>
       <body>
         <p>How is the Header Designed?</p>

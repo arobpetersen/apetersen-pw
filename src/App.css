@@ -5,11 +5,26 @@
   background-color: #282c34;
   min-height: 5pc;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #00d8ff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+.App-logo-header {
+  height: 12vmin;
+}
+
+#header-text {
+  margin-top: 0;
+  margin-bottom: 2vmin;
+  font-weight: 500;
+}
+
+.header-align {
+  display: inline-block;
 }
 
 .App-logo-footer {
