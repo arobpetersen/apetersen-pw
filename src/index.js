@@ -4,13 +4,16 @@ import './index.css';
 import App from './App';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+import Ripple from "react-material-ripple";
 
 const routing = (
     <Router>
         <div>
-            <button>
+            <Ripple style={{borderRadius: '25px'}}>
+            <button className="button-enter">
                 <Link to="/app">Click to Enter</Link>
             </button>
+            </Ripple>
             <Route path="/app" component={App} />
         </div>
     </Router>
