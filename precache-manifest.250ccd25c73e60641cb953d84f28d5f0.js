@@ -1,23 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3c5d5eb06657b83903bafb4ec3ff075",
+    "revision": "f7aad9ef56cbc3e4055785d347214090",
     "url": "/apetersen-pw/index.html"
   },
   {
-    "revision": "664bbee35628a5e348a1",
-    "url": "/apetersen-pw/static/css/2.afe969ab.chunk.css"
+    "revision": "a4dac46662ca0ed22c33",
+    "url": "/apetersen-pw/static/css/main.76a16b58.chunk.css"
   },
   {
-    "revision": "a910434cdacac541d000",
-    "url": "/apetersen-pw/static/css/main.443705e7.chunk.css"
+    "revision": "317a32e9bf41a8dd796b",
+    "url": "/apetersen-pw/static/js/2.474cd3f6.chunk.js"
   },
   {
-    "revision": "664bbee35628a5e348a1",
-    "url": "/apetersen-pw/static/js/2.23290219.chunk.js"
-  },
-  {
-    "revision": "a910434cdacac541d000",
-    "url": "/apetersen-pw/static/js/main.3f2952f3.chunk.js"
+    "revision": "a4dac46662ca0ed22c33",
+    "url": "/apetersen-pw/static/js/main.e07220e2.chunk.js"
   },
   {
     "revision": "e722fb37a1196931adee",
