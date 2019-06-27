@@ -2,16 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+//import  {enterbutton}  from './components/enter-button.jsx';
+import { Route, BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
-const routing = (
+ const routing = (
     <Router>
         <div>
-            <button id="button-enter">
-                <Link to="/app" style={{ textDecoration: 'none', color: '#282c34' }}>Click to Enter</Link>
-            </button>
-            <Route path="/app" component={App} />
+            <Route path="/" component={App} />
         </div>
     </Router>
 )
@@ -21,3 +19,5 @@ ReactDOM.render(routing, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+

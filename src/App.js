@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './img/logo.svg';
-import github from './img/github.png';
-import linkedin from './img/linkedin.png';
-import headlogo from './img/headlogo.png';
+import headlogo from './images/headlogo.png';
+import github from './images/github.png';
+import linkedin from './images/linkedin.png';
+import logo from './images/logo.svg';
+//import {enterbutton} from './components/enter-button.jsx'
 import './App.css';
 
-function App() {
+class App extends React.Component {
+  render() {
   return (
     <div className="App">
       <header className="App-header">
@@ -38,6 +40,7 @@ function App() {
       </footer>
     </div>
   );
+  }
 }
 
 export default App;
