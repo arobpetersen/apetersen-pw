@@ -1,8 +1,8 @@
 import React from 'react';
-import headlogo from './images/headlogo.png';
-import github from './images/github.png';
-import linkedin from './images/linkedin.png';
-import logo from './images/logo.svg';
+import headlogo from '../images/headlogo.png';
+import github from '../images/github.png';
+import linkedin from '../images/linkedin.png';
+import logo from '../images/logo.svg';
 //import {enterbutton} from './components/enter-button.jsx'
 import './App.css';
 
