@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: gray;
+}
+
+::-webkit-scrollbar {
+  display:none;
 }
 
 @keyframes App-logo-spin {
