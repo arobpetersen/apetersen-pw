@@ -1,61 +1,6 @@
 .App {
   text-align: center;
 }
-.App-header {
-  background-color: #282c34;
-  min-height: 5pc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #00d8ff;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 300;
-}
-
-.App-logo-header {
-  height: 12vmin;
-}
-
-#header-text {
-  margin-top: 0;
-  margin-bottom: 2vmin;
-  font-weight: 500;
-}
-
-.header-align {
-  display: inline-block;
-}
-
-.App-logo-footer {
-  animation: App-logo-spin infinite 20s linear;
-  height: 10vmin;
-  pointer-events: none;
-}
-
-.App-footer {
-  background-color: #282c34;
-  min-height: 5pc;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
-}
-
-.App-linkedin-footer {
-  height: 10vmin;
-   
-}
-
-.App-github-footer {
-  height: 10vmin;
-}
 
 @keyframes App-logo-spin {
   from {

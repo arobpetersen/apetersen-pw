@@ -1,0 +1,26 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 0pc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #00d8ff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+.App-logo-header {
+  height: 8vmin;
+}
+
+#header-text {
+  margin-top: 0;
+  margin-bottom: 1vmin;
+  font-weight: 500;
+  font-size: 3vmin;
+}
+
+.header-align {
+  display: inline-block;
+}
