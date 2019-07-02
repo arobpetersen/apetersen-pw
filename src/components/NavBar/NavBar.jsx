@@ -4,8 +4,8 @@ import './NavBar.css';
 export class NavBar extends React.Component {
   render() {
     return (
-      <header className='headerButtons'>
-        <ul>
+      <header>
+        <ul className='headerButtons'>
           <li className='navlinks'><a>Introduction</a></li>
           <li className='navlinks'><a>Interests</a></li>
           <li className='navlinks'><a>Experience</a></li>

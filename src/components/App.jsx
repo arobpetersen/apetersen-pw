@@ -4,8 +4,10 @@ import { Header } from '../components/Header/header';
 import { Footer } from './Footer/footer';
 //import { Button } from '../components/enter-button';
 import { NavBar } from '../components/NavBar/NavBar';
-import { Intro } from '../components/Intro/intro.jsx';
-import { Contact } from '../components/Contact/contact.jsx';
+import { Intro } from '../components/Intro/intro';
+import { ContactMe } from './ContactMe/contactme';
+import { Education } from '../components/Education/education';
+import { BuiltWith } from '../components/BuiltWith/builtwith';
 
 class App extends React.Component {
   render() {
@@ -14,8 +16,10 @@ class App extends React.Component {
         <Header />
         <NavBar />
         <Intro />
+        <BuiltWith />
+        <ContactMe />
         {/* <Button /> */}
-        <Contact />
+        <Education />
         <Footer />
       </div>
     );
