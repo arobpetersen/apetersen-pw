@@ -6,7 +6,6 @@ export class NavBar extends React.Component {
     return (
       <header>
         <ul className='headerButtons'>
-          <li className='navlinks'><a>Introduction</a></li>
           <li className='navlinks'><a>Interests</a></li>
           <li className='navlinks'><a>Experience</a></li>
           <li className='navlinks'><a>Education</a></li>

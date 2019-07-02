@@ -2,12 +2,11 @@ import React from 'react';
 import './App.css';
 import { Header } from '../components/Header/header';
 import { Footer } from './Footer/footer';
-//import { Button } from '../components/enter-button';
 import { NavBar } from '../components/NavBar/NavBar';
-import { Intro } from '../components/Intro/intro';
-import { ContactMe } from './ContactMe/contactme';
 import { Education } from '../components/Education/education';
-import { BuiltWith } from '../components/BuiltWith/builtwith';
+import { Interests } from '../components/Interests/interests';
+import { Experience } from '../components/Experience/experience';
+import { ContactApp } from '../components/Contact-App/contact-app';
 
 class App extends React.Component {
   render() {
@@ -15,11 +14,10 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <NavBar />
-        <Intro />
-        <BuiltWith />
-        <ContactMe />
-        {/* <Button /> */}
+        <Experience />
         <Education />
+        <Interests />
+        <ContactApp />
         <Footer />
       </div>
     );

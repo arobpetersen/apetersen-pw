@@ -1,12 +1,19 @@
 import React from "react";
 import './enter-button.css';
+import { BrowserRouter as Router, BrowserRouter, Link } from "react-router-dom";
 
 export class Button extends React.Component {
     render() {
-        return  (
-        <button id="button-enter" style={{ textDecoration: 'none', color: '#282c34' }}>
-        Click To Enter
-        </button>
+        return (
+            <Router>
+    
+                <Link to="/App" className="link">
+                    Click To Enter
+                        </Link>
+    
+
+
+            </Router>
         );
     }
 }
