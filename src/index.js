@@ -12,7 +12,8 @@ const routing = (
         <BrowserRouter>
             <Switch>
                 <div>
-                    <Link to="/App" className="link">Click Me</Link>
+                    <Link to="/" className="link">Home</Link>
+                    <Link to="/App" className="link">App</Link>
                     <Route path="/" exact component={Home} />
                     <Route path="/App" component={App} />
                 </div>

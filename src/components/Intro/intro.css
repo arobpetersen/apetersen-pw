@@ -1,6 +1,6 @@
 .intro {
     color: white;
-    padding: 1vmin 5vmin;
-    margin: 5vmin;
     font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    left: 10vmin;
 }

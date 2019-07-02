@@ -1,23 +1,21 @@
 .contactme {
-    min-height: 0pc;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     background-color: black;
     color: white;
-    margin: 100px;
     font-family: 'Quicksand', sans-serif;
+    float: right;
 }
 .contact-github {
-    height: 15vmin;
+    height: 10vmin;
     padding: 3vmin;
 }
 .contact-email {
-    height: 15vmin;
+    height: 10vmin;
     padding: 3vmin;
 }
 .contact-linkedin {
-    height: 15vmin;
+    height: 10vmin;
     padding: 3vmin;
 }

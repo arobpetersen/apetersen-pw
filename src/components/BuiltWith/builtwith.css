@@ -1,18 +1,22 @@
 .builtwith {
-    min-height: 0pc;
-    display: flex;
-    flex-direction: row;
     align-items: center;
+    flex-direction: row;
+    display: flex;
     justify-content: center;
     background-color: black;
     color: white;
-    margin: 100px;
+    justify-content: center;
     font-family: 'Quicksand', sans-serif;
+    position:absolute;
+    bottom:2vmin;
+    right:25%;
+    left:50%;
+    margin-left:-150px;
+    
 }
 .builtwith-react {
     height: 5vmin;
     padding: 1vmin;
-    padding-left: 2vmin;
 }
 .builtwith-reactrouter {
     height: 5vmin;

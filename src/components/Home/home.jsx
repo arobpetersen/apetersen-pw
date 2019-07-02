@@ -10,12 +10,9 @@ class Home extends React.Component {
         return (
             <div className="home">
                 <Header />
-                <body>
                 <Intro />
-                <BuiltWith />
                 <ContactMe />
-                <Button />
-                </body>
+                <BuiltWith />
             </div>
         );
     }
