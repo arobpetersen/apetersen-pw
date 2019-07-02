@@ -5,6 +5,7 @@ export class Contact extends React.Component {
     render() {
         return (
             <div>
+                <h2>Contact</h2>
                 <h3>Email: </h3>
                 <p>arobpetersen@gmail.com</p>
                 <h3>Phone: </h3>

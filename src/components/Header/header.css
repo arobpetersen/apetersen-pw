@@ -12,7 +12,8 @@
   left:0;
   top: 0;
   right:0;
-  position: sticky;
+  position: relative;
+  padding-bottom: 1vmin;
 }
 
 .App-logo-header {
