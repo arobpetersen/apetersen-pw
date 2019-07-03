@@ -6,16 +6,11 @@ export class Button extends React.Component {
     render() {
         return (
             <Router>
-    
                 <Link to="/App" className="link">
                     Click To Enter
-                        </Link>
-    
-
-
+                </Link>
             </Router>
         );
     }
 }
-
 export default Button;

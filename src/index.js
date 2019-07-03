@@ -3,22 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App.jsx';
 import Home from './components/Home/home.jsx';
+import headlogo from './img/headlogo.png';
 //import  {enterbutton}  from './components/enter-button.jsx';
 import { BrowserRouter as Router, Route, BrowserRouter, Switch, Link } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
     <Router>
-        <BrowserRouter>
-            <Switch>
-                <div>
-                    <Link to="/" className="link">Home</Link>
-                    <Link to="/App" className="link">App</Link>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/App" component={App} />
-                </div>
-            </Switch>
-        </BrowserRouter>
+        <div className="NavBar">
+            <img src={headlogo} id="App-logo-header" alt="logo-header" />
+            <ul className="header">
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/App">App</Link></li>
+            </ul>
+            <div className="content">
+                <Route path="/" exact component={Home} />
+                <Route path="/App" component={App} />
+            </div>
+        </div>
     </Router>
 )
 ReactDOM.render(routing, document.getElementById('root'));

@@ -16,7 +16,7 @@ export class ContactMe extends React.Component {
                     rel="noopener noreferrer">
                     <img src={github} className="contact-github" alt="Github" />
                 </a>
-                <img src={email} className="contact-email" alt="Email" title="Email"/>
+                <img src={email} className="contact-email" alt="Email" title="Email" />
                 <a
                     href="https://www.linkedin.com/in/andrew-petersen-1a4767188"
                     target="_blank"

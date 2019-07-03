@@ -14,14 +14,10 @@
   padding: 0;
   list-style: none;
   position: fixed;
- 
   }
-
   .navlinks {
     display: inline-block;
-   
   }
-
   .navlinks a {
     display: inline-block;
     color: white;
@@ -29,7 +25,6 @@
     text-decoration: none;
     padding: 2vmin 4vmin;
   }
-
   .navlinks a:hover {
     background-color: #00d8ff;
   }

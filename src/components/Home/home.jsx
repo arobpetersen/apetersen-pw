@@ -4,12 +4,13 @@ import { Header } from '../Header/header';
 import { BuiltWith } from '../BuiltWith/builtwith.jsx';
 import { ContactMe } from '../ContactMe/contactme.jsx';
 import { Intro } from '../Intro/intro.jsx';
-import { Button } from '../EnterButton/enter-button.jsx';
+import { NavBar } from '../NavBar/NavBar.jsx';
+//import { Button } from '../EnterButton/enter-button.jsx';
+
 class Home extends React.Component {
     render() {
         return (
             <div className="home">
-                <Header />
                 <Intro />
                 <ContactMe />
                 <BuiltWith />
@@ -17,5 +18,4 @@ class Home extends React.Component {
         );
     }
 }
-
 export default Home;
