@@ -2,5 +2,6 @@
     color: white;
     font-family: 'Quicksand', sans-serif;
     position: absolute;
-    left: 10vmin;
+    padding-top: 80px;
+    padding-left: 100px;
 }
