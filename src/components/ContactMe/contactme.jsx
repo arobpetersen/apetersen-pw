@@ -8,7 +8,7 @@ export class ContactMe extends React.Component {
     render() {
         return (
             <div className="contactme">
-                <h3>Contact Me: </h3>
+                <h1>Contact Me: </h1>
                 <a
                     href="https://github.com/arobpetersen"
                     target="_blank"
@@ -26,6 +26,5 @@ export class ContactMe extends React.Component {
                 </a>
             </div>
         );
-
     }
 }

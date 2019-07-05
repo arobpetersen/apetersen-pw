@@ -21,7 +21,7 @@ const routing = (
             <div className="content">
                 <Route path="/" exact component={Home} />
                 <Route path="/App" component={App} />
-                <Route path="/ContactMe" component={ContactApp} />
+                <Route path="/ContactApp" component={ContactApp} />
             </div>
         </div>
     </Router>

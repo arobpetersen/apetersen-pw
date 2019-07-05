@@ -2,12 +2,16 @@
     align-items: center;
     flex-direction: row;
     position: absolute;
+    display: flex;
     justify-content: center;
     background-color: black;
     color: white;
     font-family: 'Quicksand', sans-serif;
     bottom: 0;
-    padding-bottom: 60px;
+    padding-bottom: 150px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
 }
 .builtwith-react {
     height: 5vmin;
