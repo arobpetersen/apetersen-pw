@@ -6,7 +6,7 @@
     color: white;
     font-family: 'Quicksand', sans-serif;
     padding-top: 100px;
-    margin-right: 50%;
+    margin-right: 60%;
     text-align: center;
 }
 .contact-github {
@@ -15,13 +15,11 @@
 }
 .contact-email {
     height: 10vmin;
-    padding: 5vmin;
-    
+    padding: 5vmin; 
 }
 .contact-linkedin {
     height: 10vmin;
-    padding: 5vmin;
-    
+    padding: 5vmin; 
 }
 h1 {
     padding-right: 50%;
