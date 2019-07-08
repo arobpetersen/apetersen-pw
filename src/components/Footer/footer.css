@@ -9,7 +9,7 @@
   }
   .App-linkedin-footer {
     height: 7vmin;
-    padding-left: 10vmin; 
+    margin-left: 10vmin; 
   }
   .App-logo-react {
     animation: App-logo-spin infinite 20s linear;
@@ -18,5 +18,5 @@
   }
   .App-github-footer {
     height: 7vmin;
-    padding-right: 10vmin; 
+    margin-right: 10vmin; 
   }

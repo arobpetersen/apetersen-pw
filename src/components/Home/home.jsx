@@ -9,9 +9,8 @@ class Home extends React.Component {
     render() {
         return (
             <div id="home">
-               <Intro />
-                
-                <BuiltWith /> 
+                <Intro />
+                <BuiltWith />
                 <Footer />
             </div>
         );
