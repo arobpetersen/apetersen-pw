@@ -1,0 +1,19 @@
+.form {
+    color: white;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+}
+#call, #email, #github, #linkedin {
+    background-color:#00d8ff;
+    color: black;
+    text-align: center;
+}
+.contact-github, .contact-linkedin {
+    height: 7vmin;
+}
+.contact-email, .contact-phone {
+    height: 7vmin;
+    width: 7vmin;
+}

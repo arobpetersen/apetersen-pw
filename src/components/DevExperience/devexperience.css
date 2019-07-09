@@ -1,0 +1,26 @@
+.devxp {
+    color: white;
+    padding: 1vmin 5vmin;
+    margin: 5vmin;
+}
+.language {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+#js, #react, #html, #css {
+    height: 13vmin;
+    padding: 2vmin;
+}
+#angular, #csharp {
+    height: 10vmin;
+    padding: 2vmin;
+}
+#java, #sql {
+    height: 8vmin;
+    padding: 2vmin; 
+}
+#spring, #kotlin, #node {
+    height: 5vmin;
+    padding: 2vmin;
+}

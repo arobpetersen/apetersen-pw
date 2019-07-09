@@ -6,7 +6,7 @@ export class Interests extends React.Component {
         return (
             <div className="interests">
                 <h1>Interests</h1>
-                <p>Rock Climbing</p>
+                <h3>Rock Climbing</h3>
             </div>
         );
     }

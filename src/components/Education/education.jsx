@@ -6,7 +6,7 @@ export class Education extends React.Component {
         return (
             <div className="education">
                 <h1>Education</h1>
-                <p>University of Cincinnati</p>
+                <h3>University of Cincinnati</h3>
             </div>
         );
     }

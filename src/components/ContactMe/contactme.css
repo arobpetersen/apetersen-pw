@@ -1,13 +1,14 @@
 .contactme {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-color: black;
     color: white;
-    font-family: 'Quicksand', sans-serif;
-    padding-top: 100px;
-    margin-right: 60%;
+    font-family: 'Exo 2', sans-serif;
+    padding-top: 50px;
     text-align: center;
+    margin-left: 300px;
+    position: absolute;
 }
 .contact-github {
     height: 10vmin;
@@ -22,5 +23,8 @@
     padding: 5vmin; 
 }
 h1 {
-    padding-right: 50%;
+    color: white;
+    padding-top: 150px;
+    margin-left: 150px;
+    left: 0;
 }

@@ -6,20 +6,16 @@
     justify-content: center;
     background-color: black;
     color: white;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     bottom: 0;
     padding-bottom: 150px;
     text-align: center;
     margin: auto;
     width: 100%;
 }
-.builtwith-react {
-    height: 5vmin;
-    padding: 1vmin;
-}
 .builtwith-reactrouter {
     height: 5vmin;
-    padding: 1vmin;
+    padding-right: 1vmin;
 }
 .builtwith-javascript {
     height: 5vmin;
@@ -33,3 +29,17 @@
     height: 5vmin;
     padding: 1vmin;
 }
+.builtwith-react {
+    animation: react-logo-spin infinite 15s linear;
+    height: 6vmin;
+    pointer-events: none;
+    margin-left: 1vmin;
+  }
+  @keyframes react-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

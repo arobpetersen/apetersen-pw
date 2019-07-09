@@ -3,13 +3,15 @@ import './App.css';
 import { Footer } from './Footer/footer';
 import { Education } from '../components/Education/education';
 import { Interests } from '../components/Interests/interests';
-import { Experience } from '../components/Experience/experience';
+import { WorkExperience } from './WorkExperience/workexperience.jsx';
+import { DevExperience } from './DevExperience/devexperience.jsx';
 
 export class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Experience />
+        <WorkExperience />
+        <DevExperience />
         <Education />
         <Interests />
         <Footer />
