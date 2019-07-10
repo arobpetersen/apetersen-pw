@@ -2,29 +2,16 @@
     color: white;
     font-family: 'Exo 2', sans-serif;
     position: absolute;
-    margin-top: 120px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 1vmin 5vmin;
+    margin: 5vmin;
 }
 .body {
     margin-left: 100px;
 }
-h1 {
-    border-radius: 5px;
-    background-color: #00d8ff;
-    padding: 1vmin;
-    color: black;
-    display: inline-block;
-}
-h4 {
-    border-radius: 5px;
-    background-color: #00d8ff;
-    padding: 1vmin;
-    color: black;   
-}
 #ap {
     display: inline;
     padding: 1vmin;
+    color: #00d8ff;
 }
 #name {
     display: inline;

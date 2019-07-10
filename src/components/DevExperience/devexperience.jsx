@@ -18,7 +18,7 @@ export class DevExperience extends React.Component {
             <div className="devxp">
                 <h1>Dev Experience</h1>
                 <div className="language">
-                    <img src={react} id="react" alt="React" title="React" />
+                    <img src={react} id="react" alt="React" title="ReactJS" />
                     <img src={javascript} id="js" alt="JavaScript" title="JavaScript" />
                     <img src={html} id="html" alt="HTML" title="HTML" />
                     <img src={css} id="css" alt="CSS" title="CSS" />

@@ -13,8 +13,11 @@ export class ContactForm extends React.Component {
                 <h2 id="phonenumber">+1 (330) 631-8548</h2>
                 <img src={phone} className="contact-phone" alt="Phone" />
                 <h4 id="email">Email</h4>
-                <h2 id="emailaddress">arobpetersen@gmail.com</h2>
-                <img src={email} className="contact-email" alt="Email" title="Email" />
+                <address>
+                    <a href="mailto:arobpetersen@gmail.com">
+                        <img src={email} className="contact-email" alt="Email" title="Email" />
+                    </a>
+                </address>
                 <h4 id="linkedin">LinkedIn</h4>
                 <a
                     href="https://www.linkedin.com/in/andrew-petersen-1a4767188"

@@ -6,7 +6,7 @@ import { Interests } from '../components/Interests/interests';
 import { WorkExperience } from './WorkExperience/workexperience.jsx';
 import { DevExperience } from './DevExperience/devexperience.jsx';
 
-export class App extends React.Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">

@@ -17,3 +17,7 @@
     height: 7vmin;
     width: 7vmin;
 }
+#emailaddress {
+    text-decoration: none;
+    color: white;
+}

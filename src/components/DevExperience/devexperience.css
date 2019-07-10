@@ -1,15 +1,13 @@
 .devxp {
-    color: white;
     padding: 1vmin 5vmin;
     margin: 5vmin;
 }
 .language {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} 
+    background-color: #282c34;
+    border-radius: 25px;
+}
 #js, #react, #html, #css {
-    height: 12vmin;
+    height: 11vmin;
     padding: 2vmin;
 }
 #angular, #csharp {

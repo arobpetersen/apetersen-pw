@@ -5,7 +5,7 @@ export class Intro extends React.Component {
     render() {
         return (
             <div className="intro">
-                <h1>Welcome!</h1>
+                <h1 id="welcome">Welcome!</h1>
                 <br />
                 <div className="body">
                     <h2 id="name">My name is <h2 id="ap">Andrew Petersen</h2><br /><br/>and I am a Software Engineer.</h2><br /><br /><br />

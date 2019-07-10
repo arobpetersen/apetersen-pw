@@ -28,10 +28,11 @@ const routing = (
                 <img src={headlogo} id="App-logo-header" alt="logo-header" />
             </ul>
             <div className="content">
-                <Route render={({ location }) => (<TransitionGroup>
+                <Route render={({ location }) => (
+                <TransitionGroup>
                     <CSSTransition
                         key={location.key}
-                        timeout={450}
+                        timeout={350}
                         classNames="fade"
                     >
                         <Switch location={location}>
