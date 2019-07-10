@@ -21,6 +21,9 @@ ul.header li a {
   display: absolute;
   float: right;
   background-color: #282c34;
+  border-radius: 50px;
+  margin-left: 1vmin;
+  margin-right: 1vmin;
 }
 ul.header li a:hover {
   background-color: #00d8ff;

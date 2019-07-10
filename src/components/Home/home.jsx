@@ -1,9 +1,8 @@
 import React from 'react';
-import './home.css';
+import './home.scss';
 import { BuiltWith } from '../BuiltWith/builtwith.jsx';
 import { Intro } from '../Intro/intro.jsx';
-//import { Self } from '../SelfPicture/self.jsx';
-//import { Footer } from '../Footer/footer.jsx';
+import { Self } from '../SelfPicture/self.jsx';
 
 class Home extends React.Component {
     render() {
@@ -11,6 +10,7 @@ class Home extends React.Component {
             <div id="home">
                 <Intro />
                 <BuiltWith />
+                <Self />
             </div>
         );
     }

@@ -6,3 +6,30 @@
     padding-left: 150px;
     padding-right: 150px;
 }
+.body {
+    margin-left: 100px;
+}
+h1 {
+    border-radius: 5px;
+    background-color: #00d8ff;
+    padding: 1vmin;
+    color: black;
+    display: inline-block;
+}
+h4 {
+    border-radius: 5px;
+    background-color: #00d8ff;
+    padding: 1vmin;
+    color: black;   
+}
+#ap {
+    display: inline;
+    padding: 1vmin;
+}
+#name {
+    display: inline;
+    font-weight: 100;
+}
+.para {
+    margin-right: 50%;
+}

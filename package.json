@@ -7,6 +7,7 @@
     "@material/ripple": "^2.3.0",
     "classnames": "^2.2.6",
     "gh-pages": "^2.0.1",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-material-ripple": "^0.1.1",

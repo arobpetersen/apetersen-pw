@@ -9,15 +9,15 @@
     align-items: center;
 } 
 #js, #react, #html, #css {
-    height: 13vmin;
+    height: 12vmin;
     padding: 2vmin;
 }
 #angular, #csharp {
-    height: 10vmin;
+    height: 9vmin;
     padding: 2vmin;
 }
 #java, #sql {
-    height: 8vmin;
+    height: 7vmin;
     padding: 2vmin; 
 }
 #spring, #kotlin, #node {

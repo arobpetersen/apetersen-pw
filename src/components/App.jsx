@@ -10,8 +10,8 @@ export class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <WorkExperience />
         <DevExperience />
+        <WorkExperience />
         <Education />
         <Interests />
         <Footer />
