@@ -1,5 +1,7 @@
 import React from 'react';
 import './workexperience.css';
+import accenture from './img/accenture.png';
+import honeywell from './img/honeywell.png';
 
 export class WorkExperience extends React.Component {
     render() {
@@ -7,15 +9,15 @@ export class WorkExperience extends React.Component {
             <div className="workexperience">
                 <h1>Work Experience</h1>
                 <div className="xp">
-                    <h2>Accenture</h2>
+                    <img src={accenture} id="accenture" alt="accenture" title="Accenture" />
                     <h3>Advanced App Engineering Analyst (6/19 - 8/19)</h3>
                     <p>
                         <ul>
                             <li>Using Agile methodoligies and LeanXP (Paired Programming and TDD), devlop applicatons
-                                to solve the problem the client came to us with.</li>
+                                to solve the problem presented by the client</li>
                         </ul>
                     </p>
-                    <h2>Intelligrated-Honeywell</h2>
+                    <img src={honeywell} id="honeywell" alt="honeywell" title="Intelligrated Honeywell" />
                     <h3>Software Engineering | Application Development & Service Pro Team | Remote (9/18 - 1/19)</h3>
                     <p>
                         <ul>
@@ -27,7 +29,7 @@ export class WorkExperience extends React.Component {
                         <ul>
                             <li>Perform Quality Assurance for new and updated systems and record findings in SharePoint</li>
                             <li>Correct the logical errors found within Oracle Configurator and the Development Codebase</li>
-                            <li>Write system rules for new systems as outlined by the Business Team</li>
+                            <li>Write system rules for new products as outlined by the Business Team</li>
                         </ul>
                     </p>
                 </div>

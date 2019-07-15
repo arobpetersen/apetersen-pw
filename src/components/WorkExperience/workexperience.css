@@ -3,8 +3,17 @@
     padding: 1vmin 5vmin;
     margin: 5vmin;
 }
+
 .xp {
     background-color: #282c34;
     border-radius: 25px;
     padding: 2vmin;
+}
+
+#accenture {
+    height: 7vmin;
+}
+
+#honeywell {
+    height: 6vmin;
 }
