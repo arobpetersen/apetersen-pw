@@ -15,6 +15,7 @@ export class Intro extends React.Component {
                         <span>Rock Climber.</span>
                         <span>Gamer.</span>
                         <span>Student.</span>
+                        <span>Leader.</span>
                     </TextLoop></h2><br /><br /><br />
                     <p className="para">
                         I am currently attending and will be graduating from the University of Cincinnati
