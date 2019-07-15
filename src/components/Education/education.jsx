@@ -8,7 +8,7 @@ export class Education extends React.Component {
             <div className="education">
                 <h1>Education</h1>
                 <div className="edbody">
-                <h2>University of Cincinnati</h2>
+                <img src={uc} id="uc" alt="University of Cincinnati" title="University of Cincinnati" />
                 <h3>Bachelor of Science, Information Technology (IT)</h3>
                 <h3>Concentration: Software Engineering</h3>
                 </div>
