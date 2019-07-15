@@ -7,23 +7,28 @@
     bottom: 0;
     position: fixed;
   }
+
   .App-linkedin-footer {
     height: 7vmin;
-    margin-left: 10vmin; 
+    margin-left: 10vmin;
   }
+
   .App-logo-react {
     animation: App-logo-spin infinite 10s linear;
     height: 7vmin;
     pointer-events: none;
   }
+
   .App-github-footer {
     height: 7vmin;
-    margin-right: 10vmin; 
+    margin-right: 10vmin;
   }
+
   @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
     }
+
     to {
       transform: rotate(360deg);
     }

@@ -10,18 +10,22 @@
     margin-left: 300px;
     position: absolute;
 }
+
 .contact-github {
     height: 10vmin;
     padding: 5vmin;
 }
+
 .contact-email {
     height: 10vmin;
-    padding: 5vmin; 
+    padding: 5vmin;
 }
+
 .contact-linkedin {
     height: 10vmin;
-    padding: 5vmin; 
+    padding: 5vmin;
 }
+
 h1 {
     color: white;
     padding-top: 150px;

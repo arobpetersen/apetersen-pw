@@ -29,19 +29,19 @@ const routing = (
             </ul>
             <div className="content">
                 <Route render={({ location }) => (
-                <TransitionGroup>
-                    <CSSTransition
-                        key={location.key}
-                        timeout={350}
-                        classNames="fade"
-                    >
-                        <Switch location={location}>
-                            <Route exact path="/" component={Home} />
-                            <Route path="/App" component={App} />
-                            <Route path="/ContactApp" component={ContactApp} />
-                        </Switch>
-                    </CSSTransition>
-                </TransitionGroup>
+                    <TransitionGroup>
+                        <CSSTransition
+                            key={location.key}
+                            timeout={350}
+                            classNames="fade"
+                        >
+                            <Switch location={location}>
+                                <Route exact path="/" component={Home} />
+                                <Route path="/App" component={App} />
+                                <Route path="/ContactApp" component={ContactApp} />
+                            </Switch>
+                        </CSSTransition>
+                    </TransitionGroup>
                 )} />
             </div>
         </div>

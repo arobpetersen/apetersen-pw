@@ -13,33 +13,40 @@
     margin: auto;
     width: 100%;
 }
+
 .builtwith-reactrouter {
     height: 5vmin;
     padding-right: 1vmin;
 }
+
 .builtwith-javascript {
     height: 5vmin;
     padding: 1vmin;
 }
+
 .builtwith-html {
     height: 5vmin;
     padding: 1vmin;
 }
+
 .builtwith-css {
     height: 5vmin;
     padding: 1vmin;
 }
+
 .builtwith-react {
     animation: react-logo-spin infinite 15s linear;
     height: 6vmin;
     pointer-events: none;
     margin-left: 1vmin;
-  }
-  @keyframes react-logo-spin {
+}
+
+@keyframes react-logo-spin {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}

@@ -2,23 +2,35 @@
     padding: 1vmin 5vmin;
     margin: 5vmin;
 }
+
 .language {
     background-color: #282c34;
     border-radius: 25px;
 }
-#js, #react, #html, #css {
+
+#js,
+#react,
+#html,
+#css {
     height: 11vmin;
     padding: 2vmin;
 }
-#angular, #csharp {
+
+#angular,
+#csharp {
     height: 9vmin;
     padding: 2vmin;
 }
-#java, #sql {
+
+#java,
+#sql {
     height: 7vmin;
-    padding: 2vmin; 
+    padding: 2vmin;
 }
-#spring, #kotlin, #node {
+
+#spring,
+#kotlin,
+#node {
     height: 5vmin;
     padding: 2vmin;
 }
