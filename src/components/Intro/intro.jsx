@@ -13,7 +13,7 @@ export class Intro extends React.Component {
                         <TextLoop interval={2000} className="textscroll" springConfig={{ stiffness: 30, damping: 10 }}>
                             <span>Software Engineer.</span>
                             <span>S+ Tier Set, Hun Batz, & Ratatoskr.</span>
-                            <span>Rock Climber.</span>
+                            <span>Climber.</span>
                             <span>Gamer.</span>
                             <span>Student.</span>
                             <span>Leader.</span>
