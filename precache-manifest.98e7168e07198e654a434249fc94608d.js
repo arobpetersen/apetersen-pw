@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df964d7cbd1ab8eb9b2951f44e871021",
+    "revision": "182a4fdd6f69883f221f41adeac6a1b6",
     "url": "/apetersen-pw/index.html"
   },
   {
-    "revision": "826cb28e9433eac592eb",
-    "url": "/apetersen-pw/static/css/main.0b8e6ec3.chunk.css"
+    "revision": "f9301f2cb50271609e81",
+    "url": "/apetersen-pw/static/css/main.3e596a18.chunk.css"
   },
   {
-    "revision": "052bc0d32554596826ce",
-    "url": "/apetersen-pw/static/js/2.e0511f65.chunk.js"
+    "revision": "d55a9bb7bda443fd1e84",
+    "url": "/apetersen-pw/static/js/2.3da7333c.chunk.js"
   },
   {
-    "revision": "826cb28e9433eac592eb",
-    "url": "/apetersen-pw/static/js/main.679fa6ac.chunk.js"
+    "revision": "f9301f2cb50271609e81",
+    "url": "/apetersen-pw/static/js/main.c6bcd8ca.chunk.js"
   },
   {
     "revision": "e722fb37a1196931adee",
     "url": "/apetersen-pw/static/js/runtime~main.173900cf.js"
+  },
+  {
+    "revision": "0711fbfc297d7a62f7e4c504d81852a3",
+    "url": "/apetersen-pw/static/media/accenture.0711fbfc.png"
   },
   {
     "revision": "4c732369e54ee14c3d884b15b441ad0f",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4bd53d37d025a0f4f0b40715c4af44fb",
     "url": "/apetersen-pw/static/media/headlogo.4bd53d37.png"
+  },
+  {
+    "revision": "a7f383f5556a80bfeff63bd43ecdfb68",
+    "url": "/apetersen-pw/static/media/honeywell.a7f383f5.png"
   },
   {
     "revision": "74e943d82452f81f6a0bb0b51ac6785d",
