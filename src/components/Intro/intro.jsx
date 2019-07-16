@@ -21,7 +21,8 @@ export class Intro extends React.Component {
                     <p className="para">
                         I am currently attending and will be graduating from the University of Cincinnati
                         in the Spring of 2020 with a degree in Software Engineering. I grew up in Cleveland, OH
-                        but have recently moved to Phoenix, AZ.
+                        but have recently moved to Phoenix, AZ. I enjoy building dynamic webpages that optimize functionality
+                        and the user experience. 
                     </p>
                 </div>
             </div>
