@@ -57,5 +57,6 @@
 #node:hover,
 #kotlin:hover {
     -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
     transform: scale(1.25);
 }
