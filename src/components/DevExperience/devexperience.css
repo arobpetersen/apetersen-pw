@@ -8,24 +8,32 @@
     border-radius: 25px;
 }
 
+#react {
+    height: 12vmin;
+    padding: 2vmin;
+    transition: transform .5s;
+}
+
 #js,
-#react,
 #html,
 #css {
     height: 11vmin;
     padding: 2vmin;
+    transition: transform .5s;
 }
 
 #angular,
 #csharp {
     height: 9vmin;
     padding: 2vmin;
+    transition: transform .5s;
 }
 
 #java,
 #sql {
     height: 7vmin;
     padding: 2vmin;
+    transition: transform .5s;
 }
 
 #spring,
@@ -33,4 +41,21 @@
 #node {
     height: 5vmin;
     padding: 2vmin;
+    transition: transform .5s;
+}
+
+#react:hover,
+#js:hover,
+#css:hover,
+#html:hover,
+#css:hover,
+#angular:hover,
+#csharp:hover,
+#java:hover,
+#sql:hover,
+#spring:hover,
+#node:hover,
+#kotlin:hover {
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
 }
