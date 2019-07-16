@@ -14,6 +14,7 @@ export class Intro extends React.Component {
                             <span>Software Engineer.</span>
                             <span>Climber.</span>
                             <span>Gamer.</span>
+                            <span>Creator.</span>
                             <span>Student.</span>
                             <span>Outdoorsman.</span>
                             <span>Leader.</span>
