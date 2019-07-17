@@ -2,7 +2,7 @@
   "name": "apetersen-pw",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://arobpetersen.github.io/apetersen-pw",
+  "homepage": "http://arobpetersen.github.io/",
   "dependencies": {
     "@material/ripple": "^2.3.0",
     "classnames": "^2.2.6",
