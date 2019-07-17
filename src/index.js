@@ -21,7 +21,7 @@ const routing = (
                     backgroundColor: "gray"
                 }}>
                     More Info</NavLink></li>
-                <li><NavLink exact to="/" activeStyle={{
+                <li><NavLink exact to="/Home" activeStyle={{
                     backgroundColor: "gray"
                 }}>
                     Home</NavLink></li>
@@ -36,7 +36,7 @@ const routing = (
                             classNames="fade"
                         >
                             <Switch location={location}>
-                                <Route exact path="/" component={Home} />
+                                <Route exact path="/Home" component={Home} />
                                 <Route path="/App" component={App} />
                                 <Route path="/ContactApp" component={ContactApp} />
                             </Switch>
