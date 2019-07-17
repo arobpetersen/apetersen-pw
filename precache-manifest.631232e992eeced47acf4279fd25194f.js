@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27b9973751639a3c9e7614a0cca7075f",
+    "revision": "a734dc1abddba97591c6fd1e8d546619",
     "url": "/apetersen-pw/index.html"
   },
   {
-    "revision": "99bdd5f6dc29f758f04f",
-    "url": "/apetersen-pw/static/css/main.3e596a18.chunk.css"
+    "revision": "d38fd81fb303d75092fd",
+    "url": "/apetersen-pw/static/css/main.e102de8e.chunk.css"
   },
   {
-    "revision": "d55a9bb7bda443fd1e84",
-    "url": "/apetersen-pw/static/js/2.3da7333c.chunk.js"
+    "revision": "5a6ce678285bc2329fe5",
+    "url": "/apetersen-pw/static/js/2.b7224140.chunk.js"
   },
   {
-    "revision": "99bdd5f6dc29f758f04f",
-    "url": "/apetersen-pw/static/js/main.55c24d65.chunk.js"
+    "revision": "d38fd81fb303d75092fd",
+    "url": "/apetersen-pw/static/js/main.b68f2b09.chunk.js"
   },
   {
     "revision": "e722fb37a1196931adee",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6d9be9b0b692b55e90eab32fa1440859",
     "url": "/apetersen-pw/static/media/github.6d9be9b0.png"
-  },
-  {
-    "revision": "af7b36751193972bdc52702db2f02ec8",
-    "url": "/apetersen-pw/static/media/github.af7b3675.png"
   },
   {
     "revision": "4bd53d37d025a0f4f0b40715c4af44fb",
@@ -94,5 +90,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eb745847580c5f20d6c979509f726472",
     "url": "/apetersen-pw/static/media/sql.eb745847.png"
+  },
+  {
+    "revision": "3de182d2120823fe49c27eeb1765c53a",
+    "url": "/apetersen-pw/static/media/typescript.3de182d2.svg"
   }
 ]);
