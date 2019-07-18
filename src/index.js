@@ -41,7 +41,6 @@ const routing = (
                                     <Route path="/App" component={App} />
                                     <Route path="/ContactApp" component={ContactApp} />
                                 </Switch>
-
                             </CSSTransition>
                         </TransitionGroup>
                     )} />
