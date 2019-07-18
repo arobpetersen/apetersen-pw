@@ -19,7 +19,7 @@ const routing = (
                     }}>
                         Contact Me</NavLink></li>
                     <li><NavLink to="/App" activeStyle={{
-                        backgroundColor: "#gray"
+                        backgroundColor: "gray"
                     }}>
                         More Info</NavLink></li>
                     <li><NavLink exact to="/" activeStyle={{
