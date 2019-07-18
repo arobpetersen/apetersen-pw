@@ -17,28 +17,44 @@
 .builtwith-reactrouter {
     height: 5vmin;
     padding-right: 1vmin;
+    transition: transform .4s;
 }
 
 .builtwith-javascript {
     height: 5vmin;
     padding: 1vmin;
+    transition: transform .4s;
 }
 
 .builtwith-html {
     height: 5vmin;
     padding: 1vmin;
+    transition: transform .4s;
 }
 
 .builtwith-css {
     height: 5vmin;
     padding: 1vmin;
+    transition: transform .4s;
 }
 
 .builtwith-react {
     animation: react-logo-spin infinite 15s linear;
     height: 6vmin;
-    pointer-events: none;
     margin-left: 1vmin;
+}
+
+#reactzoom {
+    transition: transform .4s;
+}
+#reactzoom:hover,
+.builtwith-css:hover,
+.builtwith-html:hover,
+.builtwith-javascript:hover,
+.builtwith-reactrouter:hover {
+    -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
 }
 
 @keyframes react-logo-spin {
@@ -50,3 +66,4 @@
         transform: rotate(360deg);
     }
 }
+

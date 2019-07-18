@@ -103,6 +103,7 @@ ul.header li a:active {
   #App-logo-header {
     height: 30px;
     padding-left: 10px;
+
   }
 
   ul.header li a {
@@ -111,7 +112,6 @@ ul.header li a:active {
   }
 
   ul.header {
-    padding: 0;
     padding-right: 10px;
   }
 }
