@@ -9,7 +9,6 @@
 .body {
     padding: 1vmin 5vmin;
     margin: 5vmin;
-   
 }
 
 #ap {
@@ -29,4 +28,11 @@
 
 .textscroll {
     font-weight: bold;
+}
+
+@media (max-width: 414px) {
+    .body {
+        padding: 1vmin 1vmin;
+        margin: 1vmin;
+    }
 }
