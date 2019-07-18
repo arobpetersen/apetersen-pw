@@ -1,8 +1,8 @@
 .self {
     height: 40vmin;
     padding-top: 160px;
-    float: right;
     position: absolute;
     margin-right: 350px;
     right: 0;
+    width: 50%;
 }

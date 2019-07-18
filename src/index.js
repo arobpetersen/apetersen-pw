@@ -5,7 +5,7 @@ import App from './components/App.jsx';
 import Home from './components/Home/home.jsx';
 import ContactApp from './components/ContactApp/contactapp.jsx'
 import headlogo from './img/headlogo.png';
-import { BrowserRouter as Router, Route, NavLink, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, NavLink, Switch, BrowserRouter } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import * as serviceWorker from './serviceWorker';
 
@@ -28,21 +28,24 @@ const routing = (
                 <img src={headlogo} id="App-logo-header" alt="logo-header" />
             </ul>
             <div className="content">
-                <Route render={({ location }) => (
-                    <TransitionGroup>
-                        <CSSTransition
-                            key={location.key}
-                            timeout={350}
-                            classNames="fade"
-                        >
-                            <Switch location={location}>
-                                <Route exact path="/" component={Home} />
-                                <Route path="/App" component={App} />
-                                <Route path="/ContactApp" component={ContactApp} />
-                            </Switch>
-                        </CSSTransition>
-                    </TransitionGroup>
-                )} />
+                <BrowserRouter basename={process.env.PUBLIC_URL}>>
+                    <Route render={({ location }) => (
+                        <TransitionGroup>
+                            <CSSTransition
+                                key={location.key}
+                                timeout={350}
+                                classNames="fade"
+                            >
+                                <Switch location={location}>
+                                    <Route exact path="/" component={Home} />
+                                    <Route path="/App" component={App} />
+                                    <Route path="/ContactApp" component={ContactApp} />
+                                </Switch>
+
+                            </CSSTransition>
+                        </TransitionGroup>
+                    )} />
+                </BrowserRouter>
             </div>
         </div>
     </Router>

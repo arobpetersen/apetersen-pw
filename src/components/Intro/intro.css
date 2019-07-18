@@ -4,6 +4,8 @@
     position: absolute;
     padding: 1vmin 5vmin;
     margin: 5vmin;
+    width: 50%;
+    left: 0;
 }
 
 .body {
