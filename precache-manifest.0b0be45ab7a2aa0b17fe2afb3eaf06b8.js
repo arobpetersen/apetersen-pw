@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28ee6208a1f3bd264712be47a8737be9",
+    "revision": "0f934ef4f487ab75b8641a38852338e8",
     "url": "/apetersen-pw/index.html"
   },
   {
-    "revision": "1be173e687ee5bcf58ec",
+    "revision": "2ad4237a30a4facfad17",
     "url": "/apetersen-pw/static/css/main.2a2cc9b1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/apetersen-pw/static/js/2.b7224140.chunk.js"
   },
   {
-    "revision": "1be173e687ee5bcf58ec",
-    "url": "/apetersen-pw/static/js/main.04652141.chunk.js"
+    "revision": "2ad4237a30a4facfad17",
+    "url": "/apetersen-pw/static/js/main.c75152f2.chunk.js"
   },
   {
     "revision": "e722fb37a1196931adee",
