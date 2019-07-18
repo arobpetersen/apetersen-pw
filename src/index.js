@@ -11,24 +11,24 @@ import * as serviceWorker from './serviceWorker';
 
 const routing = (
     <Router>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>>
         <div className="NavBar">
-            <ul className="header">
-                <li><NavLink to="/ContactApp" activeStyle={{
-                    backgroundColor: "gray"
-                }}>
-                    Contact Me</NavLink></li>
-                <li><NavLink to="/App" activeStyle={{
-                    backgroundColor: "gray"
-                }}>
-                    More Info</NavLink></li>
-                <li><NavLink exact to="/" activeStyle={{
-                    backgroundColor: "gray"
-                }}>
-                    Home</NavLink></li>
-                <img src={headlogo} id="App-logo-header" alt="logo-header" />
-            </ul>
-            <div className="content">
-                <BrowserRouter basename={process.env.PUBLIC_URL}>>
+                <ul className="header">
+                    <li><NavLink to="/ContactApp" activeStyle={{
+                        backgroundColor: "gray"
+                    }}>
+                        Contact Me</NavLink></li>
+                    <li><NavLink to="/App" activeStyle={{
+                        backgroundColor: "gray"
+                    }}>
+                        More Info</NavLink></li>
+                    <li><NavLink exact to="/" activeStyle={{
+                        backgroundColor: "gray"
+                    }}>
+                        Home</NavLink></li>
+                    <img src={headlogo} id="App-logo-header" alt="logo-header" />
+                </ul>
+                <div className="content">
                     <Route render={({ location }) => (
                         <TransitionGroup>
                             <CSSTransition
@@ -45,9 +45,9 @@ const routing = (
                             </CSSTransition>
                         </TransitionGroup>
                     )} />
-                </BrowserRouter>
+                </div>
             </div>
-        </div>
+        </BrowserRouter>
     </Router>
 )
 ReactDOM.render(routing, document.getElementById('root'));
