@@ -12,7 +12,7 @@ export class BuiltWith extends React.Component {
             <div className="builtwith">
                 <h3>Built Using:</h3>
                 <div id="reactzoom">
-                <img src={react} className="builtwith-react" alt="React" title="React"/>
+                    <img src={react} className="builtwith-react" alt="React" title="React" />
                 </div>
                 <img src={reactrouter} className="builtwith-reactrouter" alt="React Router" title="React Router V4" />
                 <img src={javascript} className="builtwith-javascript" alt="JavaScript" title="JavaScript" />
