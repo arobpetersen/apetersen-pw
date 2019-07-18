@@ -15,7 +15,6 @@ export class Intro extends React.Component {
                             <span>Climber.</span>
                             <span>Gamer.</span>
                             <span>Creator.</span>
-                            <span>Student.</span>
                             <span>Outdoorsman.</span>
                             <span>Leader.</span>
                         </TextLoop></h2>
@@ -23,7 +22,7 @@ export class Intro extends React.Component {
                         I am currently attending and will be graduating from the University of Cincinnati
                         in the Spring of 2020 with a degree in Software Engineering. I grew up in Cleveland, OH
                         but have recently moved to Phoenix, AZ. I enjoy building dynamic webpages that optimize both 
-                        functionality and the user experience. 
+                        functionality and an enhanced user experience. 
                     </p>
                 </div>
             </div>

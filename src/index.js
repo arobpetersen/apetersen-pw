@@ -19,15 +19,15 @@ const routing = (
                     }}>
                         Contact Me</NavLink></li>
                     <li><NavLink to="/App" activeStyle={{
-                        backgroundColor: "gray"
+                        backgroundColor: "#gray"
                     }}>
                         More Info</NavLink></li>
                     <li><NavLink exact to="/" activeStyle={{
                         backgroundColor: "gray"
                     }}>
                         Home</NavLink></li>
-                    <img src={headlogo} id="App-logo-header" alt="logo-header" />
                 </ul>
+                <img src={headlogo} id="App-logo-header" alt="logo-header" />
                 <div className="content">
                     <Route render={({ location }) => (
                         <TransitionGroup>
