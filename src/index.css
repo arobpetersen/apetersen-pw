@@ -101,17 +101,17 @@ ul.header li a:active {
 
 @media (max-width: 414px) {
   #App-logo-header {
-    height: 30px;
-    padding-left: 10px;
+    height: 35px;
+    padding-left: 5px;
 
   }
 
   ul.header li a {
-    padding: 5px;
+    padding: 7.5px;
     font-weight: normal;
   }
 
   ul.header {
-    padding-right: 10px;
+    padding-right: 5px;
   }
 }
