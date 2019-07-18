@@ -94,6 +94,7 @@ ul.header li a:active {
 
   ul.header li a {
     padding: 15px;
+    font-weight: normal;
   }
 
 }
