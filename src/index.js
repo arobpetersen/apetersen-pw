@@ -10,7 +10,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
         <div className="NavBar">
             <ul className="header">
                 <li><NavLink to="/ContactApp" activeStyle={{
