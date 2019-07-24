@@ -1,5 +1,7 @@
 import React from 'react';
 import './builtwith.css';
+
+//Images
 import react from './img/logo.svg';
 import reactrouter from './img/reactrouter.png';
 import javascript from './img/javascript.png';

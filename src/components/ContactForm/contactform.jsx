@@ -1,5 +1,7 @@
 import React from 'react';
 import './contactform.css';
+
+//Images
 import github from './img/github.png';
 import email from './img/email.png';
 import linkedin from './img/linkedin.png';

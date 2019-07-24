@@ -1,13 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
+import * as serviceWorker from './serviceWorker';
+
+//Packages
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, NavLink, Switch, BrowserRouter } from "react-router-dom";
+
+//Components
 import App from './components/App.jsx';
 import Home from './components/Home/home.jsx';
-import ContactApp from './components/ContactApp/contactapp.jsx'
+import ContactApp from './components/ContactApp/contactapp.jsx';
+
+//Images
 import headlogo from './img/headlogo.png';
-import { BrowserRouter as Router, Route, NavLink, Switch, BrowserRouter } from "react-router-dom";
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import * as serviceWorker from './serviceWorker';
+
+
 
 const routing = (
     <Router>

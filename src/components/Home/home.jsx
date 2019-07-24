@@ -1,7 +1,10 @@
 import React from 'react';
 import './home.css';
+
+//Packages
 import Particles from 'react-particles-js';
 
+//Components
 import { BuiltWith } from '../BuiltWith/builtwith.jsx';
 import { Intro } from '../Intro/intro.jsx';
 //import { Self } from '../SelfPicture/self.jsx';

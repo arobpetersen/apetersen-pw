@@ -1,6 +1,10 @@
 import React from 'react';
 import './devexperience.css';
+
+//Packages
 //import { Parallax } from 'react-scroll-parallax';
+
+//Images
 import react from './imgdev/react.png';
 import javascript from './imgdev/javascript.png';
 import html from './imgdev/html.png';
