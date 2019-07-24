@@ -5,3 +5,10 @@
         right: 0;
         left: 0;
 }
+
+canvas {
+        display: block;
+        position: absolute;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
