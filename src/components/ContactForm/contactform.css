@@ -4,6 +4,7 @@
     top: 150px;
     width: 100%;
     text-align: center;
+    
 }
 
 #call,
@@ -13,20 +14,32 @@
     background-color: #00d8ff;
     color: black;
     text-align: center;
+    box-shadow: 0px 1px 10px 3px #00d8ff;
 }
 
 .contact-github,
 .contact-linkedin {
     height: 7vmin;
+    transition: transform .3s;
 }
 
 .contact-email,
 .contact-phone {
     height: 7vmin;
     width: 7vmin;
+    transition: transform .3s;
 }
 
 #emailaddress {
     text-decoration: none;
     color: white;
+}
+
+.contact-phone:hover,
+.contact-email:hover,
+.contact-github:hover,
+.contact-linkedin:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }

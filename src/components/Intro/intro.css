@@ -1,7 +1,6 @@
 .intro {
     color: white;
     font-family: 'Exo 2', sans-serif;
-    position: absolute;
     padding: 1vmin 5vmin;
     margin: 5vmin;
 }
@@ -24,6 +23,7 @@
 
 .para {
     padding-top: 4vmin;
+    width: 50%;
 }
 
 .textscroll {

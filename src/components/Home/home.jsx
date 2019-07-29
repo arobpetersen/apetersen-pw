@@ -2,14 +2,14 @@ import React from 'react';
 import './home.css';
 
 //Packages
-import Particles from 'react-particles-js';
+//import Particles from 'react-particles-js';
 
 //Components
 import { BuiltWith } from '../BuiltWith/builtwith.jsx';
 import { Intro } from '../Intro/intro.jsx';
-//import { Self } from '../SelfPicture/self.jsx';
+import { Self } from '../SelfPicture/self.jsx';
 
-const particlesOpt = {
+/*const particlesOpt = {
     "particles": {
         "number": {
             "value": 160,
@@ -43,17 +43,21 @@ const particlesOpt = {
         }
     }
 }
+*/
 class Home extends React.Component {
     render() {
         return (
             <div className="home">
-                <Particles
-                    params={particlesOpt} />
-                <Intro />
-
+                {/*<Particles
+                    params={particlesOpt} /> */}
+                <div className="row">
+                    <Intro />
+                    <Self />
+                </div>
                 <BuiltWith />
             </div>
         );
     }
 }
+
 export default Home;
