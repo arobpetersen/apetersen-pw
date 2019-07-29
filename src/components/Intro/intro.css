@@ -1,13 +1,13 @@
 .intro {
     color: white;
     font-family: 'Exo 2', sans-serif;
-    padding: 1vmin 5vmin;
-    margin: 5vmin;
+    margin-top: 10vmin;
+    margin-left: 5%;
 }
 
 .body {
-    padding: 1vmin 5vmin;
-    margin: 5vmin;
+    margin-top: 5vmin;
+    margin-left: 5%;
 }
 
 #ap {

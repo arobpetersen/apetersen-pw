@@ -15,7 +15,6 @@ import java from './imgdev/java.png';
 import sql from './imgdev/sql.png';
 import node from './imgdev/node.png';
 import spring from './imgdev/spring.png';
-import kotlin from './imgdev/kotlin.png';
 import typescript from './imgdev/typescript.svg';
 
 export class DevExperience extends React.Component {
@@ -34,7 +33,6 @@ export class DevExperience extends React.Component {
                     <img src={sql} id="sql" alt="SQL" title="SQL" />
                     <img src={node} id="node" alt="NodeJS" title="NodeJS" />
                     <img src={spring} id="spring" alt="Spring Boot" title="Spring Boot" />
-                    <img src={kotlin} id="spring" alt="Kotlin" title="Kotlin" />
                     <img src={typescript} id="typescript" alt="TypeScript" title="TypeScript" />
                 </div>
             </div >

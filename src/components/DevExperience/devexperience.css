@@ -44,7 +44,6 @@
 }
 
 #spring,
-#kotlin,
 #typescript {
     height: 5vmin;
     padding: 2vmin;
@@ -62,7 +61,6 @@
 #sql:hover,
 #spring:hover,
 #node:hover,
-#kotlin:hover,
 #typescript:hover {
     -webkit-transform: scale(1.25);
     -ms-transform: scale(1.25);
