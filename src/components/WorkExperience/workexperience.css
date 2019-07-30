@@ -1,7 +1,6 @@
 .workexperience {
     color: white;
     margin-left: 5%;
-
 }
 
 .xpContainer {
@@ -21,4 +20,10 @@
 
 #honeywellid {
     height: 4vmin;
+}
+
+@media (max-width: 414px) {
+    .workexperience {
+        margin: 0 5%;
+    }
 }
