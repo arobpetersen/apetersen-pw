@@ -14,7 +14,7 @@ import ContactApp from './components/ContactApp/contactapp.jsx';
 
 //Images
 import headlogo from './img/headlogo.png';
-
+//import aplogo from './img/aplogo.png';
 
 
 const routing = (
