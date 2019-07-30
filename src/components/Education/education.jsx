@@ -7,10 +7,12 @@ export class Education extends React.Component {
         return (
             <div className="education">
                 <h1>Education</h1>
-                <div className="edbody">
-                    <img src={uc} id="uc" alt="University of Cincinnati" title="University of Cincinnati" />
-                    <h3>Bachelor of Science, Information Technology (IT)</h3>
-                    <h3>Concentration: Software Engineering</h3>
+                <div className="edContainer">
+                    <div id="ed">
+                        <img src={uc} id="uc" alt="University of Cincinnati" title="University of Cincinnati" />
+                        <h3>Bachelor of Science, Information Technology (IT)</h3>
+                        <h3 id="concentration">Concentration: Software Engineering</h3>
+                    </div>
                 </div>
             </div>
         );

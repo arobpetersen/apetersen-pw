@@ -1,16 +1,23 @@
 .education {
     color: white;
-    padding: 1vmin 5vmin;
-    margin: 5vmin;
+    margin: 5vmin 5%;
 }
 
-.edbody {
+.edContainer {
     background-color: #282c34;
     border-radius: 25px;
     padding: 2vmin;
     box-shadow: 0px 0px 10px 5px #00d8ff;
 }
 
+#ed {
+    margin: 0 5%;
+}
+
 #uc {
     height: 10vmin;
+}
+
+#concentration {
+    font-weight: 200;
 }

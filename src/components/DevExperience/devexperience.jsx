@@ -23,6 +23,7 @@ export class DevExperience extends React.Component {
             <div className="devxp">
                 <h1>Dev Experience</h1>
                 <div className="language">
+                    <div className="margin">
                     <img src={react} id="react" alt="React" title="ReactJS" />
                     <img src={javascript} id="js" alt="JavaScript" title="JavaScript" />
                     <img src={html} id="html" alt="HTML" title="HTML" />
@@ -34,6 +35,7 @@ export class DevExperience extends React.Component {
                     <img src={node} id="node" alt="NodeJS" title="NodeJS" />
                     <img src={spring} id="spring" alt="Spring Boot" title="Spring Boot" />
                     <img src={typescript} id="typescript" alt="TypeScript" title="TypeScript" />
+                    </div>
                 </div>
             </div >
         );
