@@ -22,11 +22,9 @@ h4 {
 
 ul.header li {
   list-style-type: none;
-  margin: 0;
 }
 
 ul.header {
-  padding: 0;
   padding-right: 30px;
 }
 
@@ -42,6 +40,7 @@ ul.header li a {
   margin-right: 1vmin;
   background-position: center;
   transition: background .8s;
+  box-shadow: 0px 0px 10px 2px #00d8ff;
 }
 
 ul.header li a:hover {

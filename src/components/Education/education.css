@@ -1,6 +1,6 @@
 .education {
     color: white;
-    margin: 5vmin 5%;
+    margin: 0 5%;
 }
 
 .edContainer {
@@ -12,6 +12,7 @@
 
 #ed {
     margin: 0 5%;
+    text-align: center;
 }
 
 #uc {
