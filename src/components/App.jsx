@@ -5,7 +5,6 @@ import './App.css';
 //import { ParallaxProvider } from 'react-scroll-parallax';
 
 //Components
-//import { Footer } from './Footer/footer';
 import { Education } from '../components/Education/education';
 import { Interests } from '../components/Interests/interests';
 import { WorkExperience } from './WorkExperience/workexperience.jsx';

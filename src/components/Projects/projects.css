@@ -8,6 +8,18 @@
     box-shadow: 0px 0px 10px 5px #00d8ff;
 }
 
+.projects-body {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    float: right;
+}
+
+.projects-github{
+    height: 7vmin;
+    transition: transform .3s;
+}
+
 #dripdrop {
     height: 35vmin;
     margin: 5vmin;
@@ -16,8 +28,10 @@
     transition: transform .6s;
 }
 
-#dripdrop:hover {
+#dripdrop:hover,
+.projects-github:hover {
     -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);
     transform: scale(1.15);
 }
+

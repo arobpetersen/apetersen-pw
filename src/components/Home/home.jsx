@@ -2,14 +2,14 @@ import React from 'react';
 import './home.css';
 
 //Packages
-//import Particles from 'react-particles-js';
+import Particles from 'react-particles-js';
 
 //Components
 import { BuiltWith } from '../BuiltWith/builtwith.jsx';
 import { Intro } from '../Intro/intro.jsx';
 import { Self } from '../SelfPicture/self.jsx';
 
-/*const particlesOpt = {
+const particlesOpt = {
     "particles": {
         "number": {
             "value": 160,
@@ -43,18 +43,25 @@ import { Self } from '../SelfPicture/self.jsx';
         }
     }
 }
-*/
+
+let particleStyle = {
+	position: 'fixed',
+	top: 100,
+	zIndex: -2
+}
+
 class Home extends React.Component {
     render() {
         return (
             <div className="home">
-                {/*<Particles
-                    params={particlesOpt} /> */}
                 <div className="row">
                     <Intro />
                     <Self />
                 </div>
                 <BuiltWith />
+                <Particles
+                    params={particlesOpt} 
+                    style={particleStyle}/>
             </div>
         );
     }
