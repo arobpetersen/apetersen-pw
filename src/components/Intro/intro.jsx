@@ -7,7 +7,6 @@ export class Intro extends React.Component {
         return (
             <div className="intro">
                 <h1 id="welcome">Welcome!</h1>
-                <br />
                 <div className="body">
                     <h2 id="name">My name is <h2 id="ap">Andrew Petersen</h2><br /><br />and I am a&nbsp;
                         <TextLoop interval={2000} className="textscroll" springConfig={{ stiffness: 30, damping: 10 }}>
