@@ -4,6 +4,10 @@ import './projects.css';
 //Images
 import dripdrop from './img/dripdrop.PNG';
 import github from './img/github.png';
+import react from './img/logo.svg';
+import ec2 from './img/ec2.svg';
+import dynamodb from './img/dynamodb.svg';
+import d3 from './img/d3.png';
 
 export class Projects extends React.Component {
     render() {
@@ -21,6 +25,25 @@ export class Projects extends React.Component {
                     </a>
                     <div className="projects-body">
                         <h2>DripDrop</h2>
+                        <ul>
+                            <li>
+                                This project was created for and won the Accenture Summer Analyst
+                                Hackathon where all Technology Summer Analysts from across the country
+                                competed.
+                            </li>
+                            <li>
+                                The theme of project was sustainibiity. So we created an application to track water
+                                usage and promote conservation.
+                            </li>
+                        </ul>
+                        <h3>Technology Used</h3>
+                        <div className="techused">
+                            <img src={react} className="react" alt="React" title="React" />
+                            <img src={ec2} className="ec2" alt="Amazon EC2" title="Amazon EC2" />
+                            <img src={dynamodb} className="techstack" alt="Amazon DynamoDB" title="Amazon DynamoDB" />
+                            <img src={d3} className="techstack" alt="D3" title="D3" />
+                        </div>
+                        <h3>Technology Explained</h3>
                     </div>
                 </div>
             </div>

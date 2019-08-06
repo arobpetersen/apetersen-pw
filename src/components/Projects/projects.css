@@ -9,10 +9,12 @@
 }
 
 .projects-body {
+    color: white;
+    margin: 5vmin 5%;
+    /*}
     display: flex;
     flex-direction: row;
-    color: white;
-    float: right;
+    float: right; */
 }
 
 .projects-github{
@@ -35,3 +37,22 @@
     transform: scale(1.15);
 }
 
+.techused {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.react {
+    height: 8vmin;
+}
+
+.techstack {
+    height: 7vmin;
+    margin: 1vmin;
+}
+
+.ec2 {
+    height: 7vmin;
+    margin-right: 1vmin;
+}

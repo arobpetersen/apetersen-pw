@@ -9,25 +9,10 @@
     margin: 10vmin auto;
 }
 
-.builtwith-reactrouter {
-    height: 5vmin;
-    padding-right: 1vmin;
-    transition: transform .4s;
-}
-
-.builtwith-javascript {
-    height: 5vmin;
-    padding: 1vmin;
-    transition: transform .4s;
-}
-
-.builtwith-html {
-    height: 5vmin;
-    padding: 1vmin;
-    transition: transform .4s;
-}
-
-.builtwith-css {
+.builtwith-html,
+.builtwith-css,
+.builtwith-javascript,
+.builtwith-reactrouter  {
     height: 5vmin;
     padding: 1vmin;
     transition: transform .4s;
