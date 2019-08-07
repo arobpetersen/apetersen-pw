@@ -9,48 +9,67 @@
 }
 
 .margin {
-    margin: 0 auto;
-    width: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #react {
-    height: 12vmin;
-    padding: 2vmin;
+    height: 9%;
+    width: 9%;
+    padding: 2vmin 1vmin;
     transition: transform .4s;
 }
 
 #js,
 #html,
 #css {
-    height: 11vmin;
-    padding: 2vmin;
+    height: 7%;
+    width: 7%;
+    padding: 3vmin 1vmin;
     transition: transform .4s;
 }
 
 #angular,
 #csharp {
-    height: 9vmin;
-    padding: 2vmin;
+    height: 5%;
+    width: 5%;
+    padding: 3vmin 1vmin;
     transition: transform .4s;
 }
 
-#java,
+#java{
+    height: 5%;
+    width: 5%;
+    padding: 3vmin 1vmin;
+    transition: transform .4s;
+}
+
 #sql {
-    height: 7vmin;
-    padding: 2vmin;
+    height: 4%;
+    width: 4%;
+    padding: 3vmin 1vmin;
     transition: transform .4s;
 }
 
 #node {
-    height: 6vmin;
-    padding: 2vmin;
+    height: 7%;
+    width: 7%;
+    padding: 3vmin 1vmin;
     transition: transform .4s;
 }
 
-#spring,
+#spring {
+    height: 12%;
+    width: 12%;
+    padding: 3vmin 1vmin;
+    transition: transform .4s;
+}
 #typescript {
-    height: 5vmin;
-    padding: 2vmin;
+    height: 3%;
+    width: 3%;
+    padding: 3vmin 1vmin;
     transition: transform .4s;
 }
 

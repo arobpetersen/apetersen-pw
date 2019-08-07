@@ -24,17 +24,17 @@ export class DevExperience extends React.Component {
                 <h1>Dev Experience</h1>
                 <div className="language">
                     <div className="margin">
-                    <img src={react} id="react" alt="React" title="ReactJS" />
-                    <img src={javascript} id="js" alt="JavaScript" title="JavaScript" />
-                    <img src={html} id="html" alt="HTML" title="HTML" />
-                    <img src={css} id="css" alt="CSS" title="CSS" />
-                    <img src={angular} id="angular" alt="Angular" title="Angular" />
-                    <img src={csharp} id="csharp" alt="C#" title="C#" />
-                    <img src={java} id="java" alt="Java" title="Java" />
-                    <img src={sql} id="sql" alt="SQL" title="SQL" />
-                    <img src={node} id="node" alt="NodeJS" title="NodeJS" />
-                    <img src={spring} id="spring" alt="Spring Boot" title="Spring Boot" />
-                    <img src={typescript} id="typescript" alt="TypeScript" title="TypeScript" />
+                        <img src={react} id="react" alt="React" title="ReactJS" />
+                        <img src={javascript} id="js" alt="JavaScript" title="JavaScript" />
+                        <img src={html} id="html" alt="HTML" title="HTML" />
+                        <img src={css} id="css" alt="CSS" title="CSS" />
+                        <img src={angular} id="angular" alt="Angular" title="Angular" />
+                        <img src={csharp} id="csharp" alt="C#" title="C#" />
+                        <img src={java} id="java" alt="Java" title="Java" />
+                        <img src={sql} id="sql" alt="SQL" title="SQL" />
+                        <img src={node} id="node" alt="NodeJS" title="NodeJS" />
+                        <img src={spring} id="spring" alt="Spring Boot" title="Spring Boot" />
+                        <img src={typescript} id="typescript" alt="TypeScript" title="TypeScript" />
                     </div>
                 </div>
             </div >
