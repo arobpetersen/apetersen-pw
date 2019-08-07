@@ -1,5 +1,6 @@
 .projectsContainer {
     margin: 5vmin 5%;
+    color: white;
 }
 
 .projects {
@@ -9,38 +10,43 @@
 }
 
 .projects-body {
-    color: white;
-    margin: 5vmin 5%;
-    /*}
+    margin: 0 5vmin;
     display: flex;
     flex-direction: row;
-    float: right; */
+}
+
+.rowOne { 
+   margin-top: 2vmin;
 }
 
 .projects-github{
-    height: 7vmin;
+    height: 8vmin;
     transition: transform .3s;
+    margin-left: 50%;
 }
 
 #dripdrop {
     height: 35vmin;
-    margin: 5vmin;
+    margin-top: 5vmin;
+    margin-right: 5vmin;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 5px white;
     transition: transform .6s;
 }
 
-#dripdrop:hover,
-.projects-github:hover {
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    transform: scale(1.15);
+.head {
+    display: flex;
+    flex-direction: row;
 }
 
 .techused {
     align-items: center;
     flex-direction: row;
     display: flex;
+}
+
+.icons {
+    margin-top: 5vmin;
 }
 
 .react {
@@ -55,4 +61,11 @@
 .ec2 {
     height: 7vmin;
     margin-right: 1vmin;
+}
+
+#dripdrop:hover,
+.projects-github:hover {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
 }

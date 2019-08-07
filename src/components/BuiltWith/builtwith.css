@@ -1,5 +1,4 @@
 .builtwith {
-    align-items: center;
     flex-direction: row;
     display: flex;
     justify-content: center;
@@ -14,7 +13,7 @@
 .builtwith-javascript,
 .builtwith-reactrouter  {
     height: 5vmin;
-    padding: 1vmin;
+    margin: 1vmin;
     transition: transform .4s;
 }
 
